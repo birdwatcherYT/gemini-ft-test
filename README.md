@@ -14,7 +14,11 @@ Geminiのファインチューニングをやってみる
 
 
 ## コード
-`.env`
+### 環境構築
+```sh
+uv sync
+```
+`.env`を用意
 ```
 GOOGLE_API_KEY="GOOGLE AI STUDIOから入手したAPIキー"
 ```
